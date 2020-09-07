@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment1">
+
+    <ViewFlipper
+        android:id="@+id/flipview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:animateFirstView="true"
+        android:animateLayoutChanges="true"
+        android:flipInterval="3000"
+        android:inAnimation="@android:anim/fade_in">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="245dp"
+            android:src="@drawable/image3" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="245dp"
+            android:src="@drawable/image2" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="245dp"
+            android:src="@drawable/image1" />
+
+    </ViewFlipper>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="@font/arizonia"
+        android:text=" Welcome To Elite Events"
+        android:textAppearance="@color/drwer_bg"
+        android:textSize="25dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="332dp"
+        android:layout_height="139dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="240dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="Take a deep breath, de-stress and get comfy while we take on the responsibility of planning and executing your event so you can focus on
+what really matters!"
+        android:textAppearance="@color/drwer_bg"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:layout_width="438dp"
+        android:layout_height="332dp"
+        android:layout_marginTop="380dp"
+        android:src="@drawable/image4" />
+
+
+</FrameLayout>

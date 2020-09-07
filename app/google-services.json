@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "874619488900",
+    "firebase_url": "https://elite-event-planner-e8d29.firebaseio.com",
+    "project_id": "elite-event-planner-e8d29",
+    "storage_bucket": "elite-event-planner-e8d29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874619488900:android:2c48ed2638ce75d00d50d1",
+        "android_client_info": {
+          "package_name": "com.example.eliteeventplanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874619488900-5gbko8em10ipoqq72s6q2dnh1dd7q67b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYR8tnGifx6AAC4gkkXSECvzJydmIDl0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874619488900-5gbko8em10ipoqq72s6q2dnh1dd7q67b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

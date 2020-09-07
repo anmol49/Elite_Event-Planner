@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="349dp"
+            android:layout_height="118dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/berkshire_swash"
+            android:text="For our First-Class services and World-Class events, feel free to get in touch with us.
+We promise a lot of happiness, fun and some REAL entertainment!"
+            android:textAppearance="@color/colorPrimary"
+            android:textSize="18dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="404dp"
+        android:layout_height="499dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/cu3"/>
+
+        <TextView
+            android:id="@+id/font"
+            android:layout_width="390dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="180dp"
+            android:fontFamily="@font/alegreya_bold_italic"
+            android:text="EMAIL: info@elite.com.pk"
+            android:textAppearance="@color/colorPrimary"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="431dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="409dp"
+            android:layout_height="61dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="220dp"
+            android:fontFamily="@font/alegreya_bold_italic"
+            android:text="PHONE: 03330000000"
+            android:textAppearance="@color/colorPrimary"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="348dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="336dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="260dp"
+            android:fontFamily="@font/alegreya_bold_italic"
+            android:text="Head Office: BULDING 18C ,STREET 14 , DHA PHASE5 , KARACHI PAKISTAN"
+            android:textAppearance="@color/colorPrimary"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="431dp" />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
