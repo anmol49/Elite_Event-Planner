@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             fragmentTransaction = fragmentManager.beginTransaction();
             fragmentTransaction.replace(R.id.container_fragment, new VenueFragment(), null).addToBackStack(null);
             fragmentTransaction.commit();
-            Toast.makeText(MainActivity.this, "Theme", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, "Venue", Toast.LENGTH_SHORT).show();
             }
         if (item.getItemId() == R.id.bookevent) {
             //fragmentManager = getSupportFragmentManager();

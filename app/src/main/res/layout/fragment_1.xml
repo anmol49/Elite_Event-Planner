@@ -50,8 +50,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="240dp"
         android:fontFamily="@font/berkshire_swash"
-        android:text="Take a deep breath, de-stress and get comfy while we take on the responsibility of planning and executing your event so you can focus on
-what really matters!"
+        android:text="Take a deep breath, de-stress and get comfy while we take on the responsibility of planning and executing your event so you can spend most beautiful and enjoyable moments with your dearest"
         android:textAppearance="@color/drwer_bg"
         android:textSize="18dp"
         android:textStyle="bold" />
